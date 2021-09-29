@@ -16,11 +16,11 @@ pipeline {
     }
     stage ('Second') {
       agent {
-        label 'agent1'
+        label 'agent2'
     }
       steps {
       sh '''         
-        
+        npm install cypress 
         npm install mocha
         npx cypress run --spec ./cypress/integration/test.spec.js
         '''
