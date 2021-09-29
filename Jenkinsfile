@@ -16,7 +16,7 @@ pipeline {
     }
     stage ('Second') {
       agent {
-        label 'agent1'
+        label 'agent2'
     }
       steps {
       sh '''         
