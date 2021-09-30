@@ -1,6 +1,6 @@
 describe('Heading', () => {
     it('has the right title', () => {
-        cy.visit('http://3.21.21.0:5000/example-1')
+        cy.visit('http://172.31.2.240:5000/example-1')
 
         cy.get('h1')
             .invoke('text')
