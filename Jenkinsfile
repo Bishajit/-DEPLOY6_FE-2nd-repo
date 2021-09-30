@@ -14,7 +14,7 @@ pipeline {
         '''
       }
     }
-    stage ('test') {
+    stage ('Second') {
       agent {
         label 'agent2'
     }
